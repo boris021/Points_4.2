@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0a auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #006D00;
+  margin-top: 52px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.box__title {
+  margin-top: 120px;
+  margin-bottom: 49px;
+}
+
+.heading {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box__heading {
+  margin-bottom: 90px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1a1820;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 14px 21px rgba(0, 0, 0, 0.17);
+  height: 720px;
+}
+
+.cards__cart {
+  padding: 50px;
+  margin-right: 40px;
+  margin-bottom: 117px;
+}
+
+.cards-cart {
+  background-color: ;
+}
+
+.cart-title {
+  color: #1a1820;
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 33px;
+}
+
+.cart__img {
+  margin-bottom: 37px;
+}
+
+.text-block {
+  text-align: center;
+}
+
+.text {
+  font-size: 19px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+
+.text-block__text {
+  margin-bottom: 34px;
+}
+
+.prise {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.list {
+  color: #1a1820;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.list::before {
+  content: url(../img/check.png);
+  margin-right: 13px;
+}
+
+.check {
+  margin-right: 13px;
+}
+
+.btn {
+  box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 1px solid #ffba15;
+  background-color: #ffb504;
+  background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%);
+}
+
+.cart__btn {
+  padding: 26px 60px;
+}
+
+.box-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cart--prise {
+  padding: 20px 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.box__cards {
+  margin-top: 49px;
+  margin-bottom: 122px;
+}
